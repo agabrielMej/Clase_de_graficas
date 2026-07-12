@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\agabr\Clase_de_graficas\raylib_image_tutorial\target\debug\build\raylib-sys-2c772ba431436c65\out\build\CMakeFiles\b9f12cc556e824e4cee306b3e2a38013\PACKAGE_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{99D3CC92-A313-3388-B60D-4E1E7086C0CA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,11 @@
+C:/Users/agabr/Clase_de_graficas/raylib_image_tutorial/target/debug/build/raylib-sys-2c772ba431436c65/out/lib/raylib.lib
+C:/Users/agabr/Clase_de_graficas/raylib_image_tutorial/target/debug/build/raylib-sys-2c772ba431436c65/out/include/raylib.h
+C:/Users/agabr/Clase_de_graficas/raylib_image_tutorial/target/debug/build/raylib-sys-2c772ba431436c65/out/include/rcamera.h
+C:/Users/agabr/Clase_de_graficas/raylib_image_tutorial/target/debug/build/raylib-sys-2c772ba431436c65/out/include/rlgl.h
+C:/Users/agabr/Clase_de_graficas/raylib_image_tutorial/target/debug/build/raylib-sys-2c772ba431436c65/out/include/raymath.h
+C:/Users/agabr/Clase_de_graficas/raylib_image_tutorial/target/debug/build/raylib-sys-2c772ba431436c65/out/lib/pkgconfig/raylib.pc
+C:/Users/agabr/Clase_de_graficas/raylib_image_tutorial/target/debug/build/raylib-sys-2c772ba431436c65/out/lib/cmake/raylib/raylib-config-version.cmake
+C:/Users/agabr/Clase_de_graficas/raylib_image_tutorial/target/debug/build/raylib-sys-2c772ba431436c65/out/lib/cmake/raylib/raylib-config-version.cmake
+C:/Users/agabr/Clase_de_graficas/raylib_image_tutorial/target/debug/build/raylib-sys-2c772ba431436c65/out/lib/cmake/raylib/raylib-config.cmake
+C:/Users/agabr/Clase_de_graficas/raylib_image_tutorial/target/debug/build/raylib-sys-2c772ba431436c65/out/lib/cmake/raylib/raylib-targets.cmake
+C:/Users/agabr/Clase_de_graficas/raylib_image_tutorial/target/debug/build/raylib-sys-2c772ba431436c65/out/lib/cmake/raylib/raylib-targets-debug.cmake

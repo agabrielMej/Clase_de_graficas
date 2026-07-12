@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\agabr\Clase_de_graficas\raylib_image_tutorial\target\debug\build\raylib-sys-2c772ba431436c65\out\build\CMakeFiles\7e2bdf16baa4ad69285592ede384d6a6\update_mappings.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\agabr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\raylib-sys-6.0.0\raylib\src\external\glfw\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\agabr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\raylib-sys-6.0.0\raylib\src\external\glfw\src\mappings.h.in">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Users\agabr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\raylib-sys-6.0.0\raylib\src\external\glfw\CMake\GenerateMappings.cmake" />
+    <None Include="C:\Users\agabr\Clase_de_graficas\raylib_image_tutorial\target\debug\build\raylib-sys-2c772ba431436c65\out\build\raylib\external\glfw\src\CMakeFiles\update_mappings" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{99D3CC92-A313-3388-B60D-4E1E7086C0CA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{3061CAAF-5086-39FC-85A4-1C5500E58667}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

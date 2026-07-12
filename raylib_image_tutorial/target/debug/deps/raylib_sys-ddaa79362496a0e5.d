@@ -1,0 +1,14 @@
+C:\Users\agabr\Clase_de_graficas\raylib_image_tutorial\target\debug\deps\raylib_sys-ddaa79362496a0e5.d: C:\Users\agabr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\raylib-sys-6.0.0\src\lib.rs C:\Users\agabr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\raylib-sys-6.0.0\src\color.rs C:\Users\agabr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\raylib-sys-6.0.0\src\math.rs C:\Users\agabr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\raylib-sys-6.0.0\src\matrix_quat_math.rs C:\Users\agabr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\raylib-sys-6.0.0\src\vector_math.rs C:\Users\agabr\Clase_de_graficas\raylib_image_tutorial\target\debug\build\raylib-sys-2c772ba431436c65\out/bindings.rs
+
+C:\Users\agabr\Clase_de_graficas\raylib_image_tutorial\target\debug\deps\libraylib_sys-ddaa79362496a0e5.rlib: C:\Users\agabr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\raylib-sys-6.0.0\src\lib.rs C:\Users\agabr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\raylib-sys-6.0.0\src\color.rs C:\Users\agabr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\raylib-sys-6.0.0\src\math.rs C:\Users\agabr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\raylib-sys-6.0.0\src\matrix_quat_math.rs C:\Users\agabr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\raylib-sys-6.0.0\src\vector_math.rs C:\Users\agabr\Clase_de_graficas\raylib_image_tutorial\target\debug\build\raylib-sys-2c772ba431436c65\out/bindings.rs
+
+C:\Users\agabr\Clase_de_graficas\raylib_image_tutorial\target\debug\deps\libraylib_sys-ddaa79362496a0e5.rmeta: C:\Users\agabr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\raylib-sys-6.0.0\src\lib.rs C:\Users\agabr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\raylib-sys-6.0.0\src\color.rs C:\Users\agabr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\raylib-sys-6.0.0\src\math.rs C:\Users\agabr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\raylib-sys-6.0.0\src\matrix_quat_math.rs C:\Users\agabr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\raylib-sys-6.0.0\src\vector_math.rs C:\Users\agabr\Clase_de_graficas\raylib_image_tutorial\target\debug\build\raylib-sys-2c772ba431436c65\out/bindings.rs
+
+C:\Users\agabr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\raylib-sys-6.0.0\src\lib.rs:
+C:\Users\agabr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\raylib-sys-6.0.0\src\color.rs:
+C:\Users\agabr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\raylib-sys-6.0.0\src\math.rs:
+C:\Users\agabr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\raylib-sys-6.0.0\src\matrix_quat_math.rs:
+C:\Users\agabr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\raylib-sys-6.0.0\src\vector_math.rs:
+C:\Users\agabr\Clase_de_graficas\raylib_image_tutorial\target\debug\build\raylib-sys-2c772ba431436c65\out/bindings.rs:
+
+# env-dep:OUT_DIR=C:\\Users\\agabr\\Clase_de_graficas\\raylib_image_tutorial\\target\\debug\\build\\raylib-sys-2c772ba431436c65\\out

@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/agabr/Clase_de_graficas/raylib_image_tutorial/target/debug/build/raylib-sys-2c772ba431436c65/out/build/cmake_install.cmake",
+		"C:/Users/agabr/Clase_de_graficas/raylib_image_tutorial/target/debug/build/raylib-sys-2c772ba431436c65/out/build/raylib/cmake_install.cmake",
+		"C:/Users/agabr/Clase_de_graficas/raylib_image_tutorial/target/debug/build/raylib-sys-2c772ba431436c65/out/build/raylib/external/glfw/cmake_install.cmake",
+		"C:/Users/agabr/Clase_de_graficas/raylib_image_tutorial/target/debug/build/raylib-sys-2c772ba431436c65/out/build/raylib/external/glfw/src/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
