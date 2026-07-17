@@ -1,0 +1,10 @@
+^C:\USERS\AGABR\DEV\EJERCICIO_EN\TARGET\DEBUG\BUILD\RAYLIB-SYS-B6B9EA011AFF05BA\OUT\BUILD\CMAKEFILES\A4FEF7C86F8E6CBAE40F4B16545A3979\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

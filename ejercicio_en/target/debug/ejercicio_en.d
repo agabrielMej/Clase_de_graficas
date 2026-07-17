@@ -1,0 +1,1 @@
+C:\Users\agabr\Dev\ejercicio_en\target\debug\ejercicio_en.exe: C:\Users\agabr\Dev\ejercicio_en\src\framebuffer.rs C:\Users\agabr\Dev\ejercicio_en\src\line.rs C:\Users\agabr\Dev\ejercicio_en\src\main.rs

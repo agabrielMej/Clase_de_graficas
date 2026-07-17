@@ -1,0 +1,7 @@
+C:/Users/agabr/Dev/ejercicio_en/target/debug/build/raylib-sys-b6b9ea011aff05ba/out/lib/raylib.lib
+C:/Users/agabr/Dev/ejercicio_en/target/debug/build/raylib-sys-b6b9ea011aff05ba/out/include/raylib.h
+C:/Users/agabr/Dev/ejercicio_en/target/debug/build/raylib-sys-b6b9ea011aff05ba/out/include/rlgl.h
+C:/Users/agabr/Dev/ejercicio_en/target/debug/build/raylib-sys-b6b9ea011aff05ba/out/include/raymath.h
+C:/Users/agabr/Dev/ejercicio_en/target/debug/build/raylib-sys-b6b9ea011aff05ba/out/lib/pkgconfig/raylib.pc
+C:/Users/agabr/Dev/ejercicio_en/target/debug/build/raylib-sys-b6b9ea011aff05ba/out/lib/cmake/raylib/raylib-config-version.cmake
+C:/Users/agabr/Dev/ejercicio_en/target/debug/build/raylib-sys-b6b9ea011aff05ba/out/lib/cmake/raylib/raylib-config.cmake

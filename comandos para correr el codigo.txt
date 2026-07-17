@@ -1,0 +1,5 @@
+en la terminal poner estos comandos si es que no corre la imagen
+
+$env:LIBCLANG_PATH="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\Llvm\x64\bin"
+
+cargo run
