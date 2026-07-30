@@ -46,4 +46,4 @@ patrones más interesantes cerca de las orillas.
 ## GIF
 
 <!-- Coloca aquí el GIF mostrando el juego corriendo -->
-![Demo](demo.gif)
+![IMG](imagen_en_gif.gif)

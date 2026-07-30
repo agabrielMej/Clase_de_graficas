@@ -6,9 +6,7 @@ pub struct GameOfLife {
     pub height: usize,
     cells: Vec<bool>,
     next: Vec<bool>,
-    // tamaño en pixeles reales de cada celula al dibujarla.
-    // permite que el grid logico (ej. 100x100) se vea grande
-    // en una ventana mas grande, ej 700x700.
+
     pub cell_size: i32,
     alive_color: Color,
     dead_color: Color,
@@ -46,7 +44,6 @@ impl GameOfLife {
         self.cells[self.index(x, y)]
     }
 
-    /// color logico de una celula (independiente del framebuffer)
     pub fn get_color(&self, x: usize, y: usize) -> Color {
         if self.is_alive(x, y) {
             self.alive_color
@@ -54,9 +51,6 @@ impl GameOfLife {
             self.dead_color
         }
     }
-
-    /// cuenta vecinos vivos con wrap-around (mundo toroidal),
-    /// asi las celulas que "salen" de un lado aparecen del otro
     fn count_neighbors(&self, x: usize, y: usize) -> u8 {
         let w = self.width as i32;
         let h = self.height as i32;
@@ -79,7 +73,6 @@ impl GameOfLife {
         count
     }
 
-    /// aplica las 4 reglas de Conway y avanza un turno
     pub fn step(&mut self) {
         for y in 0..self.height {
             for x in 0..self.width {
@@ -87,9 +80,9 @@ impl GameOfLife {
                 let n = self.count_neighbors(x, y);
 
                 let will_live = match (alive, n) {
-                    (true, 2) | (true, 3) => true, // survival
-                    (true, _) => false,            // under/overpopulation
-                    (false, 3) => true,            // reproduction
+                    (true, 2) | (true, 3) => true, 
+                    (true, _) => false,            
+                    (false, 3) => true,           
                     (false, _) => false,
                 };
 
@@ -100,9 +93,6 @@ impl GameOfLife {
         std::mem::swap(&mut self.cells, &mut self.next);
     }
 
-    /// dibuja el estado actual en el framebuffer. No se limpia el
-    /// framebuffer antes, porque aqui se repinta cada celda
-    /// (viva o muerta) en cada frame.
     pub fn render(&self, fb: &mut Framebuffer) {
         for y in 0..self.height {
             for x in 0..self.width {
@@ -119,9 +109,6 @@ impl GameOfLife {
             }
         }
     }
-
-    // ---------- PATRONES CLASICOS ----------
-    // (ox, oy) = esquina superior izquierda donde se coloca el patron
 
     pub fn add_block(&mut self, ox: i32, oy: i32) {
         for (dx, dy) in [(0, 0), (1, 0), (0, 1), (1, 1)] {
@@ -226,7 +213,6 @@ impl GameOfLife {
         }
     }
 
-    /// bonus: Gosper Glider Gun, dispara gliders indefinidamente
     pub fn add_gosper_glider_gun(&mut self, ox: i32, oy: i32) {
         let cells = [
             (24, 0),
@@ -244,29 +230,23 @@ impl GameOfLife {
         }
     }
 
-    /// carga un patron inicial creativo que llena buena parte del grid,
-    /// combinando still lifes, osciladores y spaceships
     pub fn load_initial_pattern(&mut self) {
-        // still lifes
         self.add_block(2, 2);
         self.add_beehive(8, 2);
         self.add_boat(15, 2);
         self.add_tub(20, 2);
 
-        // osciladores
         self.add_blinker(5, 15);
         self.add_toad(15, 15);
         self.add_beacon(25, 15);
         self.add_pulsar(40, 5);
         self.add_pentadecathlon(65, 10);
 
-        // spaceships
         self.add_glider(5, 30);
         self.add_glider(50, 60);
         self.add_lwss(20, 40);
         self.add_mwss(60, 40);
 
-        // generador infinito de gliders
         self.add_gosper_glider_gun(10, 60);
     }
 }
